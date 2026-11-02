@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table;
+
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.top {
+    width: 1118px;
+    height: 58px;
+
+    margin: 30px auto;
+
+}
+
+.logo {
+    float: left;
+    background: url(imag/logo.png) left no-repeat;
+    padding: 5px;
+    width: 195px;
+    height: 52px;
+
+}
+
+.toptow {
+    float: left;
+    width: 290px;
+    height: 38px;
+    padding: 10px;
+
+
+}
+
+.toptow p {
+    display: inline-block;
+    width: 80px;
+    height: 39px;
+    font-size: 19px;
+    line-height: 39px;
+    text-align: center;
+}
+
+#a {
+    color: #3b3b39;
+    text-decoration: none;
+
+}
+
+/* 注意权重，如果原来的选择器无法实现功能，考虑改变权重 */
+.first,
+#a :link {
+    border-bottom: 2px solid #5696ba;
+    /* text-decoration: overline; */
+}
+
+/* 同时调用时，需要加‘，’ */
+#a:visited,
+#a:hover {
+    border-bottom: 2px solid #5696ba;
+
+    ;
+}
+
+
+.searcher input {
+    float: left;
+    width: 384px;
+    height: 33px;
+    margin: 10px 10px 10px 30px;
+    border: 1px solid #f4f6f5;
+    font-size: 13px;
+    color: #979797;
+    background-color: #f4f6f5;
+    border-radius: 30px;
+    /* background: url(imag/search.png) no-repeat; */
+
+
+
+}
+
+.name {
+    float: right;
+    width: 150px;
+    height: 49px;
+    font-size: 16px;
+    background: url(imag/user.png) no-repeat left 11px;
+    line-height: 49px;
+    text-indent: 38px;
+
+
+}
+
+/* 背景图 */
+.banner {
+    height: 390px;
+    background-color: #0092cb;
+}
+
+.banner .picture {
+    width: 1118px;
+    height: 390px;
+    margin: 0 auto;
+}
+
+.banner .left {
+    float: left;
+    width: 180px;
+    height: 390px;
+    background-color: #005476;
+}
+
+/* .banner .right img {
+    float: left;
+    width: 735px;
+    height: 390px;
+    
+} */
+.banner .right {
+    float: left;
+    width: 735px;
+    height: 390px;
+    background: url(imag/banner.png) no-repeat -176px 10px;
+    background-size: 150%;
+}
+
+.banner .left p {
+
+    color: white;
+    text-indent: 1.5em;
+    font-size: 15px;
+    line-height: 43px;
+    background: url(imag/right.png) no-repeat 150px;
+}
+
+.banner .left p:hover {
+    color: #00a4ff;
+}
+
+/* 右边小边框栏  应该与背景并列否则会占有背景的位置*/
+.box {
+    float: right;
+    width: 203px;
+    height: 285px;
+    margin: 53px auto;
+}
+
+.picture .bluebox {
+    float: right;
+    width: 203px;
+    height: 245px;
+    background-color: #209dd5;
+    border-radius: 10px;
+
+
+
+
+}
+
+/* 小蓝框 */
+.picture .smallbox {
+    float: right;
+    width: 203px;
+    height: 241px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bluebox>h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffff;
+    margin: 10px auto;
+    text-indent: 9px;
+}
+
+.smallbox .one {
+
+    width: 180px;
+    height: 56px;
+    margin: 5px 10px;
+    border-bottom: 1px solid #e0e0e0;
+
+
+}
+
+.one h5 {
+    font-weight: 400;
+
+}
+
+.next {
+    margin: 5px 0;
+}
+
+.smallbox .one p {
+    display: inline-block;
+    font-size: 13px;
+    color: #12aaff;
+}
+
+.smallbox .one span {
+    font-size: 11px;
+    color: #8a8b8d;
+}
+
+.last {
+    width: 180px;
+    height: 56px;
+    padding: 15px 0;
+
+}
+
+.last div>a {
+    display: inline-block;
+    width: 177px;
+    height: 30px;
+    background-color: #02a3fe;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+
+}
+
+/* 推荐栏 */
+.type {
+    width: 1118px;
+    height: 55px;
+    margin: 13px auto;
+    background-color: #fcfefd;
+    border: 1px solid #e4e4e4;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, .1);
+}
+
+
+.type p {
+    display: inline-block;
+    padding: 18px 20px 18px 26px;
+    color: #6ec5f2;
+    font-size: 16px;
+}
+
+.type span {
+    display: inline-block;
+    height: 22px;
+    line-height: 55px;
+    padding: 0px 22px;
+    font-size: 16px;
+}
+
+.type .special {
+    height: 22px;
+    /* 方便设置边框的长度 */
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    padding: 0px 22px;
+    line-height: 22px;
+}
+
+/* .type tr,
+td {
+    text-align: center;
+    padding: 5px 22px;
+    height: 29px;
+    border: 1px solid black;
+    border-collapse: collapse;
+} 
+    边框不好调整*/
+.introduce {
+    width: 1118px;
+    height: 30px;
+    margin: 17px auto;
+    margin-top: 34px;
+
+
+}
+
+.introduce h2 {
+    float: left;
+    font-weight: 400;
+    color: #28292c;
+}
+
+.introduce p {
+    float: right;
+    width: 86px;
+    height: 18px;
+    color: #bebebe;
+}
+
+/* 上半部分 */
+.content {
+    width: 1118px;
+    height: 520px;
+
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.content li {
+    float: left;
+    width: 212px;
+    height: 253px;
+    border-top: 1px solid transparent;
+    background-color: #efebeb;
+    margin-right: 14px;
+    margin-bottom: 14px;
+
+}
+
+.oone {
+    background: url(imag/01.png) no-repeat;
+}
+
+.ttwo {
+    background: url(imag/02.png) no-repeat;
+}
+
+.three {
+    background: url(imag/03.png) no-repeat;
+}
+
+.four {
+    background: url(imag/04.png) no-repeat;
+}
+
+.five {
+    background: url(imag/05.png) no-repeat;
+}
+
+.six {
+    background: url(imag/06.png) no-repeat;
+}
+
+.seven {
+    background: url(imag/07.png) no-repeat;
+}
+
+.eight {
+    background: url(imag/08.png) no-repeat;
+}
+
+.nine {
+    background: url(imag/09.png) no-repeat;
+}
+
+.ten {
+    background: url(imag/10.png) no-repeat;
+}
+
+.content p {
+    float: left;
+    height: 34px;
+    margin: 166px 18px 15px 18px;
+    font-size: 13px;
+    color: #312c28;
+
+}
+
+.sentence {
+    height: 14px;
+    margin: 0 18px;
+}
+
+.sentence .yellow {
+    font-size: 14px;
+    color: #f8c38d;
+}
+
+.sentence .gray {
+    width: 94px;
+    height: 14px;
+
+    font-size: 13px;
+    color: #bababa;
+
+}
+
+.content .what {
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.middle {
+    float: left;
+    height: 30px;
+    margin: 0 200px 0 255px;
+}
+
+.middle p {
+    display: inline-block;
+    width: 37px;
+    height: 30px;
+    color: #4b4c4e;
+    line-height: 30px;
+    margin: 0 28px;
+}
+
+.middle a {
+    float: left;
+}
+
+.middle .thefirst {
+    color: #00a4ff;
+
+}
+
+/* 第三部分 */
+.bottomend {
+    width: 1118px;
+    height: 362px;
+
+    margin: 0 auto;
+}
+
+.bottomend .lleft {
+    float: left;
+    width: 217px;
+    height: 362px;
+    background: url(imag/11.png) no-repeat;
+
+}
+
+.bottomend .ttop {
+    float: left;
+    width: 887px;
+    height: 97px;
+
+    background: url(imag/12.png) no-repeat;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+
+.bottomend li {
+    float: left;
+    width: 211px;
+    height: 251px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #efebeb;
+    font-size: 13px;
+    color: #312c28;
+}
+
+.sum {
+    height: 74px;
+    margin: 168px 10px;
+    border: 1px solid transparent;
+}
+
+/* 如果不加宽高会造成无法齐平 */
+.sum p {
+    width: 172px;
+    height: 36px;
+    margin: 4px 9px 10px 9px;
+    border: 1px solid transparent;
+}
+
+.sum .sentence {
+    margin: 0px 9px 10px 9px;
+}
+
+.thirteen {
+    background: url(imag/13.png) no-repeat;
+}
+
+.fourteen {
+    background: url(imag/14.png) no-repeat;
+}
+
+.fifteen {
+    background: url(imag/15.png) no-repeat;
+}
+
+.sixteen {
+    background: url(imag/16.png) no-repeat;
+}
+
+.end {
+
+    background-color: #f4f5f7;
+}
+
+.between {
+    width: 1118px;
+    height: 257px;
+    margin: 0 auto;
+    margin-top: 65px;
+    border-top: 1px solid transparent;
+}
+
+.end .character {
+    float: left;
+    width: 434px;
+    height: 167px;
+    margin: 45px 0;
+}
+
+.between .table {
+    float: right;
+    width: 484px;
+    height: 156px;
+    margin: 45px 0;
+
+}
+
+.character img {
+    margin-bottom: 28px;
+
+}
+
+.character p {
+    margin-bottom: 19px;
+    font-size: 12px;
+    display: inline-block;
+    display: inline-block;
+    color: #a6a5ad;
+}
+
+.character div {
+    width: 112px;
+    height: 35px;
+    border: 1px solid #00a4ff;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.character div a {
+    text-decoration: none;
+    color: #00a4ff;
+
+}
+
+/* 最后一部分 */
+/* 
+
+表格不好调整距离
+.table th {
+    width: 119px;
+    height: 42px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+} */
+.table {
+    width: 484px;
+    height: 165px;
+    margin-left: 200px;
+
+}
+
+.table div {
+    float: left;
+    width: 113px;
+    height: 144px;
+    margin-left: 45px;
+}
+
+.table dt {
+    margin-bottom: 14px;
+    color: #545452;
+    font-size: 15px;
+}
+
+.table dl dd {
+    font-size: 13px;
+    color: #a6a5ad;
+}
+
+.table .ss {
+    float: right;
+    text-align: right;
+}
+
+/* 完结与于2025.11.30.21.07嘻嘻🤭 */
